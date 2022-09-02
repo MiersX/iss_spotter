@@ -58,3 +58,6 @@ nextISSTimesForMyLocation((error, times) => {
   }
   nextPassByTimes(times);
 });
+module.exports = {
+  nextPassByTimes,
+}
