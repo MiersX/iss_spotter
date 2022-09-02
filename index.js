@@ -27,10 +27,10 @@ fetchCoordsByIP('108.172.118.142', (error, coordinates) => {
 
 fetchISSFlyOverTimes({ latitude: '48.4284207', longitude: -123.3656444 }, (error, times) => {
   if (error) {
-    console.log("Not completed!", error)
+    console.log("Not completed!", error);
     return;
   }
-  console.log("Success! Fly-over times:", times)
+  console.log("Success! Fly-over times:", times);
 })
 
 
